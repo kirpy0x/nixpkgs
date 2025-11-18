@@ -32,7 +32,7 @@ rustPlatform.buildRustPackage rec {
     owner = "mikedilger";
     repo = "gossip";
     rev = "e9a210920774fb29f96b7f17c80716ab23b018bd";
-    hash = "sha256-5SWSVgW+X8TBRw6I72wnDaPLJLbKEXUVKnwe8gD8tKI=";
+    hash = "";
   };
 
   cargoHash = "sha256-rE7SErOhl2fcmvLairq+mvdnbDIk1aPo3eYqwRx5kkA=";
