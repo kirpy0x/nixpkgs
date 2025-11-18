@@ -31,8 +31,8 @@ rustPlatform.buildRustPackage rec {
   src = fetchFromGitHub {
     owner = "mikedilger";
     repo = "gossip";
-    tag = "v${version}";
-    hash = "sha256-nv/NMLAka62u0WzvHMEW9XBVXpg9T8bNJiUegS/oj48=";
+    rev = "e9a210920774fb29f96b7f17c80716ab23b018bd";
+    hash = "sha256-5SWSVgW+X8TBRw6I72wnDaPLJLbKEXUVKnwe8gD8tKI=";
   };
 
   cargoHash = "sha256-rE7SErOhl2fcmvLairq+mvdnbDIk1aPo3eYqwRx5kkA=";
