@@ -28,6 +28,7 @@ in
         pkgs.makeAutostartItem {
           name = "rog-control-center";
           package = pkgs.asusctl;
+          after = "tray.target";
         }
       ))
     ];
